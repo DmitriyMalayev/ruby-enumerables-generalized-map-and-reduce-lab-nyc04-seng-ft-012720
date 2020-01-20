@@ -1,6 +1,6 @@
 # Your Code Here
-def map(array)
-  yield ("#{array}")
+def map(Array)
+  yield ("#{Array}")
 end 
 
 map(array){|a| a * -1}
