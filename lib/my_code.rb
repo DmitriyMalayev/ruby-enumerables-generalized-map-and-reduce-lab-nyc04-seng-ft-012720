@@ -1,4 +1,1 @@
-# Your Code Here
-def make_sandwich(element1, element2)
-    yield("A #{element1} and #{element2} sandwich")
-end 
+map([1, 2, 3, -9]){|n| n * n}
